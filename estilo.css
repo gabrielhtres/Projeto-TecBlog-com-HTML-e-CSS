@@ -1,0 +1,163 @@
+body {
+	background: #ededed;
+	font-family: Arial, sans-serif;
+	margin: 0px
+}
+
+a {
+	font-weight: bold;
+	padding: 5px;
+	text-decoration: none;
+	margin: 5px;
+}
+
+a:link, a:visited {
+	color: #FFF;
+}
+
+a:hover, a:active {
+	color: #ffd000;
+	background: #FFF;
+}
+
+p {
+	margin: 0px;
+}
+
+a.leia-mais {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.leia-mais:link, a.leia-mais:visited {
+	color: #ffd000;
+}
+
+a.leia-mais:hover, a.leia-mais:active {
+	color: #000;
+	background: none;
+}
+
+a.link-lateral {
+	display: block;
+	padding: 0;
+	margin: 0 0 0 15px;
+	background: none;
+	color: #ffd000;
+}
+
+a.link-lateral:link, a.link-lateral:visited {
+	color: #ffd000;
+}
+
+a.link-lateral:hover, a.link-lateral:active {
+	color: #000;
+}
+
+#cabecalho {
+	background: #ffd000;
+	/*border: 1px solid red;*/
+	height: 150px;
+	position: static;
+	display: block;
+}
+
+#menu {
+	padding: auto;
+	text-align: center;
+	position: absolute;
+	/*border: 1px solid red;*/
+	top: 100px;
+	left: 35%;
+}
+
+#logo {
+	text-align: center;
+	position: absolute;
+	/*border: 1px solid red;*/
+	top: 30px;
+	left: 600px;
+	font-size: 20px;
+}
+
+
+#tec {
+	padding: 0px;
+	display: inline;
+	/*border: 1px solid red;*/
+	color: #595150;
+
+}
+
+#blog {
+	padding: 0px;
+	display: inline;
+	/*border: 1px solid red;*/
+	color: #FFF;
+	font-weight: bold;
+}
+
+#conteudo {
+	/*border: 1px solid red;*/
+	display: block;
+	position: relative;
+	top: 20px;
+	left: 200px;
+	width: 670px;
+	background: #FFF;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+#titulo {
+	font-size: 25px;
+	font-weight: bold;
+	color: #ffd000;
+	padding: 0px;
+	margin: 0px;
+}
+
+#recentes {
+	/*border: 1px solid red;*/
+	background: #FFF;
+	position: absolute;
+	font-size: 15px;
+	top: 170px;
+	left: 920px;
+	width: 300px;
+}
+
+#titulo-r {
+	/*border: 1px solid red;*/
+	color: #595150;
+	background: #c4c4c4;
+	font-size: 25px;
+	padding: 5px;
+	margin: 10px;
+	width: 265px;
+	height: 30px;
+	font-weight: bold;
+}
+
+#p-r {
+	margin: 10px;
+}
+
+#categorias {
+	/*border: 1px solid red;*/
+	background: #FFF;
+	position: absolute;
+	font-size: 15px;
+	top: 430px;
+	left: 920px;
+	width: 300px;
+}
+
+.leia-mais {
+	color: #ffd000;
+	text-decoration: none;
+	text-decoration-style: none;
+	text-decoration-line: none;
+	padding: 0px;
+	margin: 0px;
+}
